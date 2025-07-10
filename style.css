@@ -96,7 +96,8 @@ nav button {
 }
 .vision-section p,
 .pillars-card p,
-.section-description {
+.section-description,
+.subscribe-section p {
   color: rgba(14, 14, 14, 0.7);
 }
 
@@ -250,7 +251,8 @@ nav button {
   color: rgba(14, 14, 14, 0.7);
   margin-top: 12px;
 }
-.news-descripition button, .donate-section button {
+.news-descripition button,
+.donate-section button {
   font-size: 18px;
   font-weight: 600;
   color: white;
@@ -265,15 +267,15 @@ nav button {
   margin-top: 80px;
   text-align: center;
 }
-.taka-selection{
+.taka-selection {
   display: flex;
   gap: 24px;
   justify-content: center;
   margin-top: 32px;
-  
+  margin-bottom: 32px;
 }
 #taka-200 {
-  background-color: #C6E4D6;
+  background-color: #c6e4d6;
 }
 .taka-selection p {
   font-size: 40px;
@@ -285,8 +287,7 @@ nav button {
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
-.inputfild{
-  margin-top: 32px;
+.inputfild {
   font-size: 20px;
   text-align: center;
   width: 1032px;
@@ -294,6 +295,37 @@ nav button {
   border: none;
   border-bottom: 1px solid rgba(14, 14, 14, 0.15);
   display: block;
-
+  margin: 0 auto;
 }
 
+.subscribe-section {
+  text-align: center;
+  margin-top: 80px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 80px 100px;
+}
+.subscribe {
+  width: 100%;
+  margin: 24px 0;
+  display: flex;
+  justify-content: center;
+}
+.subscribe input[type="email"] {
+  padding: 18px 40px;
+  width: 600px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px 0 0 8px;
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+}
+.subscribe input[type="button"] {
+  padding: 17px 34px;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  background-color: #006a50;
+}
