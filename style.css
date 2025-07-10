@@ -215,51 +215,85 @@ nav button {
   margin-top: 80px;
 }
 
-
-.the-news{
-
+.the-news {
   margin-top: 32px;
 }
 .news {
   display: flex;
   align-items: center;
-    padding: 48px;
+  padding: 48px;
   background-color: white;
   border-radius: 24px;
   background-color: white;
   margin-top: 24px;
 }
 .news-img {
- border-radius: 24px;
- margin-right: 32px;
+  border-radius: 24px;
+  margin-right: 32px;
 }
 
-.news-descripition h3{
+.news-descripition h3 {
   font-size: 32px;
   font-weight: bold;
   color: rgba(14, 14, 14, 0.8);
   margin-bottom: 12px;
 }
-.news-descripition h3{
+.news-descripition h3 {
   font-size: 32px;
   font-weight: bold;
   color: rgba(14, 14, 14, 0.8);
   margin-bottom: 12px;
 }
-.news-descripition p{
+.news-descripition p {
   font-size: 16px;
-  
+
   color: rgba(14, 14, 14, 0.7);
   margin-top: 12px;
 }
-.news-descripition button{
+.news-descripition button, .donate-section button {
   font-size: 18px;
   font-weight: 600;
   color: white;
-  background-color: #006A50;
+  background-color: #006a50;
   border: none;
   padding: 13px 26px;
   border-radius: 8px;
   margin-top: 32px;
+}
+
+.donate-section {
+  margin-top: 80px;
+  text-align: center;
+}
+.taka-selection{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 32px;
+  
+}
+#taka-200 {
+  background-color: #C6E4D6;
+}
+.taka-selection p {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 40px;
+  background-color: white;
+  color: rgba(14, 14, 14, 0.8);
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.inputfild{
+  margin-top: 32px;
+  font-size: 20px;
+  text-align: center;
+  width: 1032px;
+  padding: 20px 40px;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  display: block;
+
 }
 
