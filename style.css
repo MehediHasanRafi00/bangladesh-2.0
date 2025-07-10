@@ -95,7 +95,8 @@ nav button {
   margin: 24px 0 12px 0;
 }
 .vision-section p,
-.pillars-card p {
+.pillars-card p,
+.section-description {
   color: rgba(14, 14, 14, 0.7);
 }
 
@@ -185,19 +186,19 @@ nav button {
 
   border-collapse: collapse;
 }
-.table td{
+.table td {
   padding: 24px;
   border: 1px solid rgba(14, 14, 14, 0.15);
-   font-size: 16px;
+  font-size: 16px;
   font-weight: 600;
   background: white;
 }
-.table-hade{
+.table-hade {
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
 .table th {
   padding: 24px;
-  background: #C6E4D6;
+  background: #c6e4d6;
   font-size: 20px;
   font-weight: 600;
 }
@@ -205,8 +206,60 @@ nav button {
 .table select {
   padding: 10px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   border-radius: 4px;
-  background-color: #C6E4D6;
-  
+  background-color: #c6e4d6;
 }
+
+.news-section {
+  margin-top: 80px;
+}
+
+
+.the-news{
+
+  margin-top: 32px;
+}
+.news {
+  display: flex;
+  align-items: center;
+    padding: 48px;
+  background-color: white;
+  border-radius: 24px;
+  background-color: white;
+  margin-top: 24px;
+}
+.news-img {
+ border-radius: 24px;
+ margin-right: 32px;
+}
+
+.news-descripition h3{
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.news-descripition h3{
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+.news-descripition p{
+  font-size: 16px;
+  
+  color: rgba(14, 14, 14, 0.7);
+  margin-top: 12px;
+}
+.news-descripition button{
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #006A50;
+  border: none;
+  padding: 13px 26px;
+  border-radius: 8px;
+  margin-top: 32px;
+}
+
