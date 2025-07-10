@@ -25,8 +25,8 @@ nav {
   justify-content: space-between;
   margin-top: 24px;
 }
-nav h1 {
-  font-weight: 32px;
+nav h1, footer h1 {
+  font-size: 32px;
   font-weight: 700;
   color: #0e0e0e;
 }
@@ -300,7 +300,7 @@ nav button {
 
 .subscribe-section {
   text-align: center;
-  margin-top: 80px;
+  margin: 80px 0;
   background-color: #c6e4d6;
   border-radius: 24px;
   padding: 80px 100px;
@@ -328,4 +328,19 @@ nav button {
   border: none;
   color: rgba(255, 255, 255, 1);
   background-color: #006a50;
+}
+
+footer {
+  padding: 50px 0;
+  text-align: center;
+  background-color: white;
+}
+footer hr {
+  margin: 32px auto;
+  width: 1122px;
+}
+
+.footer-img img {
+  width: 24px;
+  margin-right: 23px;
 }
